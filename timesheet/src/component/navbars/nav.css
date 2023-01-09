@@ -1,0 +1,120 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    padding-inline: 100px;
+}
+
+.nav1{
+    width: 100%;
+    height:70px;
+    padding:50px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav1 .nav-logo{
+    width:200px;
+    height:50px
+}
+.nav1 .nav-logo img{
+    width:100%;
+    height:100%;
+}
+.nav1-headings{
+font: normal bold 15px Poppins;
+color: #17388E;
+}
+
+
+/* nav2 */
+.nav2-menu{
+    display: flex;
+    gap:20px;
+}
+.nav2-menu h2{
+    font: normal 600 24px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+a{
+    text-decoration: none;
+}
+
+.none{
+    display:none;
+}
+
+
+/* popup */
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.popup{
+    width:450px;
+    height:300px;
+    box-shadow: 0p 0p 4px black;
+    position: absolute;
+    background-color:rgb(0,0,0,0.7);
+    top:30%;
+    right:15%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 30px;
+    /* display: none; */
+
+    /* justify-self:center; */
+}
+
+.popup .logo{
+    width:70px;
+    height:70px
+}
+.popup .logo img{
+    width:100%;
+    height:100%;
+    /* background-color: aliceblue; */
+}
+
+.popup h1{
+    color: aliceblue;
+}
+
+.popup .buttons{
+    width: 100%;
+    height:30px;
+    border:none;
+    /* background-color: brown; */
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 50px;
+}
+
+.popup .buttons .signout-btn{
+    width: 70px;
+    height:30px;
+    border:none;
+    background-color: rgb(49, 199, 49);
+    color: aliceblue;
+}
+
+.popup .buttons button{
+    width: 70px;
+    height:30px;
+    border:none;
+    background-color: brown;
+    color: aliceblue;
+}

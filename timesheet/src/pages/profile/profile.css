@@ -1,0 +1,245 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.profile {
+    width: 100%;
+    padding-block: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-left {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.profile-left-box1 {
+    width: 100%;
+    background-color: #17388E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-block: 30px;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-image img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.profile-box1-details {
+    width: 80%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 20px;
+}
+
+.image-uploading{
+    display:flex;
+    flex-direction: column;
+}
+
+.profile-image-upload{
+    width:60px;
+    height:20px;
+    /* background-image: ; */
+    color: transparent;
+}
+
+.image-uploading-button{
+    width:60px;
+    border:none;
+    color:white;
+    cursor: pointer;
+}
+
+
+pre {
+    font: normal 400 13px Poppins;
+    color: #FFFFFF;
+}
+
+.profile-box1-details input{
+color:#FFFFFF;
+background-color: transparent;
+border: none;
+}
+
+.profile-left-box2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.leaves-counter {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 1px solid #17388E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leaves-counter h2 {
+    font: normal normal 34px Poppins;
+    letter-spacing: 0px;
+    color: #17388E;
+}
+
+.leaves-token {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.profile-right-box1-top {
+    padding-inline: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leaves-tokkrn-heading {
+    font: normal 800 20px Poppins;
+    color: #17388E;
+    opacity: 1;
+}
+
+.leaves-token-list {
+    font: normal 500 14px Poppins;
+    color: #17388E;
+}
+
+
+/* right-side */
+.profile-right {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap:200px
+}
+
+.profile-right-box1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+}
+
+.profile-right-box1-top {
+    width: 100%;
+    display: flex;
+    background-color: #FFFFFF;
+}
+
+.profile-right-box1-top h2 {
+    font: normal 600 30px Poppins;
+    color: #17388E;
+}
+
+.profile-right-box1-top button {
+    width:70px;
+    height:30px;
+    font: normal 600 15px Poppins;
+    color:#FFFFFF;
+    background-color:#407BFF;
+    border-radius:7px;
+    border:none;
+}
+
+.profile-right-box1-top button img{
+    width:20px;
+    height:15px;
+}
+
+.profile-right-box1-details {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    /* border-bottom: 1px solid #2b5acf; */
+}
+
+form input {
+    width: 250px;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid #2b5acf;
+    padding-left: 10px;
+    background-color: transparent;
+    color: #17388E74;
+}
+input:focus{
+    outline: none;
+}
+
+
+form button {
+    width: 150px;
+    height: 50px;
+    background-color: #2b5acf;
+    border: none;
+    border-radius: 7px;
+    font: normal 500 20px Poppins;
+    color: #FFFFFF;
+}
+
+form button:hover{
+    transform: scale(1.05);
+}
+
+/* calender */
+.react-calendar__tile{
+    padding: 6px 3.6666999999999996px !important;
+}
+.react-calendar__navigation {
+    display: flex;
+    height: 44px;
+    margin-bottom: 0px !important;
+}
+/* timesheet action showing */
+.profile-right-box2{
+    display: flex;
+    gap:30px;
+}
+
+.timesheet-action{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px
+}
+.timesheet-action div{
+    width:300px;
+    padding:10px;
+    /* background-color: #bbbcbe; */
+    border:2px solid  #2f67d8;
+    color: #17388E;
+    border-radius: 5px;
+
+}

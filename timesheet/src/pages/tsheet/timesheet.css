@@ -1,0 +1,157 @@
+.timesheets {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 30px 50px;
+  }
+  .timesheets .ts1 {
+    width: 25%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+  .timesheets .ts1 h3 {
+    font-size: 15px;
+  }
+  .timesheets .ts1 a {
+    text-decoration: none;
+    font-size: 12px;
+    padding: 10px;
+    text-align: center;
+    width: 150px;
+    background-color: #1087ff;
+    color: white;
+    font-weight: 500;
+    border: 2px solid white;
+  }
+  .timesheets .ts1 a:hover {
+    background-color: white;
+    border: 2px solid #1087ff;
+    color: #1087ff;
+  }
+  /* ------------------------------------------------------- */
+  /* .timesheets .ts2 */
+  .timesheets .ts2 {
+    /* width: 30%; */
+    height: 70vh;
+    /* border: 1px solid #17388e; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 23%;
+    gap: 25px;
+    padding: 35px 50px;
+    height: 70vh;
+    border-radius: 5px;
+  }
+  .timesheets .ts2 h2 {
+    font-size: 20px;
+  }
+  .timesheets .ts2 .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+  }
+  .timesheets .ts2 .grid .weeks {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .timesheets .ts2 .grid .checkboxe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 21px;
+  }
+
+  .timesheets .ts2 form input {
+    width: 50px;
+    height: 20px;
+    border: 1px solid black;
+  }
+  .timesheets .ts2 button {
+    width: 70px;
+    height: 30px;
+    font-size: 15px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    background-color: #1087ff;
+    color: white;
+    border-radius: 5px;
+    margin-left: 0;
+  }
+
+  /* ------------------------- */
+  form {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: -22px;
+    gap: 10px;
+}
+
+  /* -------------------------------------------------------------- */
+  .timesheets .ts3 {
+    width: 23%;
+    height: 70vh;
+    /* border: 1px solid #17388e; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 120px;
+    padding: 35px 5px;
+  }
+  .timesheets .ts3 button {
+    width: 80%;
+    background-color: white;
+    margin-left: 0;
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    font-size: 12px;
+    font-weight: 400;
+    border: 1.3px solid #0471df;
+  }
+  .timesheets .ts3 h2 {
+    font-size: 20px;
+  }
+  /* ------------------------------------------------------------------ */
+  .timesheets .ts4 {
+    width: 25%;
+    padding: 10px;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid #17388e; */
+  }
+  .timesheets .ts4 button {
+    margin-left: 0;
+    border: none;
+    outline: none;
+    background-color: #17388e;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 50px;
+  }
+
+  .timesheets .ts4 .presentweek{
+    margin-left: 0;
+    border: none;
+    outline: none;
+    background-color: #13be38;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 50px;
+  }

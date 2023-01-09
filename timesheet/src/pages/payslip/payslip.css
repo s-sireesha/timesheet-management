@@ -1,0 +1,64 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.payslip{
+    width:100%;
+    /* height: 10px; */
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.payslip-month{
+    width:20%;
+    display: flex;
+    flex-direction: column;
+    gap:20px
+}
+
+/* .payslip-month-userdetail{} */
+
+.payslip-month-box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px
+}
+
+.payslip-month-box div{
+    width:120px;
+    height: 40px;
+    background-color: transparent;
+    border:1px solid #407BFF;
+    color: #407BFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-size: normal bolder 20px normal normal; */
+}
+
+.payslip-month-box div button{
+    width: 100%;
+    height: 100%;
+    background-color: #407BFF;
+    color: white;
+    border: none;
+}
+
+
+/*  */
+.payslip-preview{
+    width:75%;
+    height: 80vh;
+    /* background-color: aliceblue; */
+    border:1px blue solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

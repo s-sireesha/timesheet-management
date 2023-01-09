@@ -1,0 +1,50 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.adminhome{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cross{
+    position: absolute;
+    top: 0px;
+    right: 3%;
+}
+
+
+.notification{
+    width:250px;
+    height:370px;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    
+    /* overflow-y: scroll; */
+    /* position: relative; */
+}
+
+.cards{
+    width:250px;
+    height:370px;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    overflow-y: scroll;
+    position: relative;
+    align-items: flex-start;
+}
+
+.notifi-card{
+    width:95%;
+    margin: auto;
+    padding:20px 5px 5px;
+    box-shadow: 0px 0px 2px black;
+    position: relative;
+}

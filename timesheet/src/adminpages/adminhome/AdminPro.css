@@ -1,0 +1,79 @@
+/* .hero{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+} */
+.section{
+    width: 100%;
+    height: 100vh;
+}
+.getting-data{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* height: 10vh; */
+}
+
+.getting-data input{
+    width: 50%;
+    padding: 10px;
+    outline: none;
+    color: black;
+}
+
+
+.getting-data .cards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding-top: 20px;
+}
+.getting-data .card{
+  width:30%;
+  padding:20px;
+  box-shadow: 1px 1px 4px black;
+}
+
+.getting-data .card p{
+    width:100%;
+    text-align: center;
+}
+.getting-data .buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+   
+}
+.getting-data button ,.getting-data form button{
+    width:100px;
+    height:30px;
+    font-size: 10px;
+    padding: 7px 15px;
+    cursor: pointer;
+}
+.getting-data .delete{
+    background-color: red;
+    color: white;
+    border: gray;
+}
+.upload{
+    background-color: green;
+    color: white;
+    border:gray;
+}
+
+.form{
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}

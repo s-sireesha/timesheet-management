@@ -1,0 +1,47 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    padding-inline: 100px;
+}
+
+.nav1{
+    width: 100%;
+    height:70px;
+    padding:50px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav1 .nav-logo{
+    width:200px;
+    height:50px
+}
+.nav1 .nav-logo img{
+    width:100%;
+    height:100%;
+}
+.nav1-headings{
+font: normal bold 15px Poppins;
+color: #17388E;
+}
+
+
+/* nav2 */
+.nav2-menu{
+    display: flex;
+    gap:20px;
+}
+.nav2-menu h2{
+    font: normal 600 24px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+a{
+    text-decoration: none;
+}
